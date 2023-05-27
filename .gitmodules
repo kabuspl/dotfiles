@@ -1,0 +1,15 @@
+[submodule ".antigen/bundles/Junker/zsh-archlinux-main"]
+	path = .antigen/bundles/Junker/zsh-archlinux-main
+	url = https://github.com/Junker/zsh-archlinux
+[submodule ".antigen/bundles/robbyrussell/oh-my-zsh"]
+	path = .antigen/bundles/robbyrussell/oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule ".antigen/bundles/romkatv/powerlevel10k"]
+	path = .antigen/bundles/romkatv/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k
+[submodule ".antigen/bundles/zsh-users/zsh-autosuggestions"]
+	path = .antigen/bundles/zsh-users/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule ".antigen/bundles/zsh-users/zsh-syntax-highlighting"]
+	path = .antigen/bundles/zsh-users/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
