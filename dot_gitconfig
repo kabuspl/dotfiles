@@ -1,0 +1,11 @@
+[user]
+	email = kabuspl@outlook.com
+	name = kabuspl
+[credential]
+	helper = 
+	helper = /usr/bin/git-credential-manager
+	credentialStore = secretservice
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[core]
+	autocrlf = input
