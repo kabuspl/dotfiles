@@ -4,7 +4,11 @@ if status is-interactive
     thefuck --alias | source
 	set -g fish_greeting
 	if set -q KONSOLE_DBUS_WINDOW
-        fastfetch
+        if test (lsb_release -si) = Fedora
+            fastfetch -c ~/.config/fastfetch/configfedora
+        else
+            fastfetch
+        end
     else
         fastfetch -c ~/.config/fastfetch/zed
 	end
