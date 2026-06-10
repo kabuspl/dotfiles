@@ -1,0 +1,161 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "cli_default_open_behavior": "existing_window",
+    "project_panel": {
+        "dock": "left"
+    },
+    "outline_panel": {
+        "dock": "left"
+    },
+    "collaboration_panel": {
+        "dock": "left"
+    },
+    "git_panel": {
+        "dock": "left"
+    },
+    "window_decorations": "client",
+    "vim_mode": false,
+    "icon_theme": {
+        "mode": "dark",
+        "light": "Material Icon Theme",
+        "dark": "Material Icon Theme"
+    },
+    "telemetry": {
+        "metrics": false,
+    },
+    "debugger": {
+        "dock": "bottom",
+    },
+    "show_edit_predictions": false,
+    "agent": {
+        "sidebar_side": "right",
+        "dock": "right",
+        "default_profile": "write",
+        "inline_assistant_model": {
+            "provider": "copilot_chat",
+            "model": "claude-haiku-4.5",
+        },
+        "default_model": {
+            "enable_thinking": true,
+            "provider": "copilot_chat",
+            "model": "claude-haiku-4.5",
+        },
+    },
+    "languages": {
+        "QML": {
+            "format_on_save": "off",
+            "indent_guides": {
+                "coloring": "fixed"
+            },
+            "soft_wrap": "none"
+        },
+        "C": {
+            "hard_tabs": false
+        },
+        "PHP": {
+            "inlay_hints": {
+                "enabled": true,
+                "show_background": true,
+                "show_value_hints": true,
+                "show_type_hints": true,
+                "show_parameter_hints": true,
+                "show_other_hints": true,
+            },
+            "format_on_save": "off",
+        },
+        "HTML": {
+            "formatter": "language_server",
+            "format_on_save": "on",
+        },
+    },
+    "lsp": {
+        "rust-analyzer": {
+            "initialization_options": {
+                "server": {
+                    "extraEnv": {
+                        "QMAKE": "qmake6",
+                    },
+                },
+            },
+        },
+        "vscode-html-language-server": {
+            "settings": {
+                "html": {
+                    "format": {
+                        "indentInnerHtml": false,
+                        "wrapLineLength": 100,
+                    },
+                },
+            },
+        },
+    },
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "One Dark"
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 14,
+    "auto_update": false,
+    // "ui_font_family": "Noto Sans",
+    "buffer_font_family": "JetBrains Mono",
+    "buffer_font_features": {
+        "calt": true,
+    },
+    "inlay_hints": {
+        "enabled": true,
+        "show_background": true,
+    },
+    "file_types": {
+        "HTML": ["j2"],
+    },
+    "tab_size": 4,
+    "experimental.theme_overrides": {
+        // "background.appearance": "blurred",
+        // "editor.background": "#282c33e0",
+        // "editor.gutter.background": "#282c33e0",
+        // "editor.active_line.background": "#2f343ebf",
+        // "toolbar.background": "#2a2e32",
+        // "tab_bar.background": "#2a2e32",
+        // "tab.active_background": "#2a2e32",
+        // "tab.inactive_background": "#23262a",
+        // "panel.background": "#00000000",
+        // "title_bar.background": "#2f343eb0",
+        // "terminal.background": "#232627",
+        // "terminal.foreground": "#fcfcfc",
+        // "terminal.dim_foreground": "#eff0f1",
+        // "terminal.bright_foreground": "#fff",
+        // "terminal.ansi.blue": "#1d99f3",
+        // "terminal.ansi.red": "#ed1515",
+        // "terminal.ansi.cyan": "#16a085",
+        // "terminal.ansi.black": "#232627",
+        // "terminal.ansi.green": "#11d116",
+        // "terminal.ansi.white": "#fcfcfc",
+        // "terminal.ansi.yellow": "#f67400",
+        // "terminal.ansi.magenta": "#9b59b6",
+        // "terminal.ansi.bright_blue": "#3daee9",
+        // "terminal.ansi.bright_red": "#c0392b",
+        // "terminal.ansi.bright_cyan": "#16a085",
+        // "terminal.ansi.bright_black": "#7f8c8d",
+        // "terminal.ansi.bright_green": "#1cdc9a",
+        // "terminal.ansi.bright_white": "#fff",
+        // "terminal.ansi.bright_yellow": "#fdbc4b",
+        // "terminal.ansi.bright_magenta": "#8e44ad",
+        // "terminal.ansi.dim_blue": "#1b668f",
+        // "terminal.ansi.dim_red": "#783228",
+        // "terminal.ansi.dim_cyan": "#186c60",
+        // "terminal.ansi.dim_black": "#31363b",
+        // "terminal.ansi.dim_green": "#17a262",
+        // "terminal.ansi.dim_white": "#63686d",
+        // "terminal.ansi.dim_yellow": "#b65619",
+        // "terminal.ansi.dim_magenta": "#614a73",
+        // "background": "#2f343eb0",
+    },
+}

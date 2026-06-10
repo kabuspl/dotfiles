@@ -1,0 +1,41 @@
+[data-fullscreen="false"] > [class*="theme-"]:nth-child(1) {
+    display: none;
+}
+
+:root, body, #app-mount, .app__160d8, [aria-label="Servers sidebar"], .bg__960e4 {
+    background: transparent;
+}
+
+[data-fullscreen="false"] {
+    grid-template-rows: 1fr;
+}
+
+[data-list-id="guildsnav"] > div > div {
+    padding-top: 15px;
+}
+
+.app-focused {
+    /* [data-list-id="guildsnav"], .sidebar_c48ade, .sidebar__5e434 { 
+        background-color: #292c3000;
+    } */
+
+    .bg__960e4 {
+        background-color: rgba(35,38,39, .72) !important;
+    }
+
+    .sidebar__5e434::after {
+        background: transparent;
+    }
+}
+
+/* [data-list-id="guildsnav"], .sidebar_c48ade, .sidebar__5e434 { 
+    background-color: #20232600;
+} */
+
+.bg__960e4 {
+    background-color: rgba(35,38,39, .6) !important;
+}
+
+.sidebar__5e434::after {
+    background: transparent;
+}

@@ -1,11 +1,35 @@
 [user]
-	email = kabuspl@outlook.com
+	email = me@kabus.ovh
 	name = kabuspl
+	signingkey = 1D0C43E30529E35F
 [credential]
-	helper = 
+	helper =
 	helper = /usr/bin/git-credential-manager
 	credentialStore = secretservice
 [credential "https://dev.azure.com"]
 	useHttpPath = true
 [core]
 	autocrlf = input
+[filesystem "JetBrains s.r.o.|17.0.10|/dev/sdb2"]
+	timestampResolution = 3188 nanoseconds
+	minRacyThreshold = 4490 microseconds
+[url "https://invent.kde.org/"]
+	insteadOf = kde:
+[url "ssh://git@invent.kde.org/"]
+	pushInsteadOf = kde:
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[filesystem "JetBrains s.r.o.|17.0.11|/dev/sdb2"]
+	timestampResolution = 3091 nanoseconds
+	minRacyThreshold = 6650 microseconds
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[commit]
+	gpgsign = true
+[credential "https://git.kabus.ovh"]
+	provider = generic

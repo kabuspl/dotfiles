@@ -1,0 +1,11 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch fix_padding
+# Changes to be committed:
+#	modified:   desktoppackage/contents/configuration/AppletConfiguration.qml
+#
+AppletConfiguration: Fix inconsistent padding around categories
+
+Add invisible item with 2px height above categories 

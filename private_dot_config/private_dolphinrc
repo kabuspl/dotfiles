@@ -1,0 +1,55 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[Baloo KEditCommentDialog]
+2 screens: Height=252
+2 screens: Width=276
+
+[DetailsMode]
+PreviewSize=22
+
+[ExtractDialog]
+2 screens: Height=480
+2 screens: Width=858
+DirHistory[$e]=/media/SSD5_BTRFS/Cracki/chained/,$HOME/Downloads/
+
+[General]
+GlobalViewProps=false
+ShowStatusBar=FullWidth
+Version=202
+ViewPropsTimestamp=2023,4,22,1,34,8.456
+
+[IconsMode]
+IconSize=64
+
+[InformationPanel]
+dateFormat=ShortFormat
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+2 screens: Height=458
+2 screens: Width=372
+3 screens: Height=532
+3 screens: Width=438
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,ffmpegthumbs,exe-thumbnailer
+
+[Search]
+Location=Everywhere
+SearchTool=Baloo
+
+[VersionControl]
+enabledPlugins=Git
+
+[ViewPropertiesDialog]
+2 screens: Height=464
+2 screens: Width=379
